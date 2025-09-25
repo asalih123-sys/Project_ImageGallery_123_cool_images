@@ -8,7 +8,7 @@
     padding:0;
     box-sizing:border-box;
 }
-
+/* The Websites Background Gradient and Centering Everything */
 body
 {
      background:linear-gradient(to left, rgb(53, 44, 124), rgb(127, 15, 135)); 
@@ -18,7 +18,7 @@ body
      justify-content:center;
      text-align:center;
 }
-
+/* The White Box thats Holds the Image Gallery and its Properties */
 .mainbox
 {
     border:5px solid rgb(255, 255, 255);
@@ -30,7 +30,7 @@ body
     display:inline-block;
     border-radius:10px;
 }
-
+/*The Title " Best Futbol Stadiums */
 #title
 {
     text-align:center;
@@ -38,7 +38,7 @@ body
     justify-content:center;
     text-shadow: 0px 0px 5px navajowhite;
 }
-
+/* Setting up the Flex Wrap and Direction for the Images */
 #ti
 {
     display:inline-flex;
@@ -47,7 +47,7 @@ body
     text-align:center;
     gap:15px;
 }
-
+/*The Properties of the Images */
 img
 {
     margin-top:25px;
@@ -57,7 +57,7 @@ img
     justify-content:center;
     margin-left:35px;
 }
-
+/* The Properties for the Text and its Border  */
 p
 {
     border: 8px solid rgb(243, 255, 194);
@@ -68,4 +68,5 @@ p
     text-shadow: 0px 0px 5px rgb(255, 255, 149);
     box-shadow: 0px 0px 5px 0px ghostwhite;
     font-size:19px;
+
 }
