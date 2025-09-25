@@ -1,0 +1,71 @@
+/* style.css */
+
+/*Reset Browser Style Sheet */
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+     background:linear-gradient(to left, rgb(53, 44, 124), rgb(127, 15, 135)); 
+     color:rgb(163, 155, 59);
+     text-align:center;
+     align-items:center;
+     justify-content:center;
+     text-align:center;
+}
+
+.mainbox
+{
+    border:5px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(225, 213, 81);
+    background: rgb(255, 255, 255);
+    width:1100px;
+    height:950px;
+    margin-top:25px;
+    display:inline-block;
+    border-radius:10px;
+}
+
+#title
+{
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    text-shadow: 0px 0px 5px navajowhite;
+}
+
+#ti
+{
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    text-align:center;
+    gap:15px;
+}
+
+img
+{
+    margin-top:25px;
+    width:300px;
+    height:225px;
+    align-items:center;
+    justify-content:center;
+    margin-left:35px;
+}
+
+p
+{
+    border: 8px solid rgb(243, 255, 194);
+    background:linear-gradient(to left, rgb(118, 94, 28), rgb(135, 175, 2));
+    color:rgba(255, 255, 255, 0.901);
+    text-align:center;
+    margin-left:35px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 149);
+    box-shadow: 0px 0px 5px 0px ghostwhite;
+    font-size:19px;
+}
